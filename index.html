@@ -3,937 +3,432 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evans Atula Osumba - Full-Stack & Mobile App Developer</title>
-    <meta name="description" content="Evans Atula Osumba is a professional Full-Stack Developer and Mobile App Developer based in Nairobi, Kenya. Specializing in Django, PHP, Flutter, React, and modern web technologies. Founder of Digital Leap Africa.">
-    <meta name="keywords" content="Evans Osumba, Full-Stack Developer Kenya, Mobile App Developer Nairobi, Django Developer, PHP Developer, Flutter Developer, React Developer, Web Development Kenya, Digital Leap Africa, Software Engineer Kenya">
-    <meta name="author" content="Evans Atula Osumba">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://osumba.digitalleap.africa">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Evans Atula Osumba - Full-Stack Developer & Mobile App Developer">
-    <meta property="og:description" content="Professional Full-Stack Developer specializing in Django, PHP, Flutter, and React. Based in Nairobi, Kenya. Founder of Digital Leap Africa.">
-    <meta property="og:image" content="https://osumba.digitalleap.africa/IMG-20250908-WA0168.png">
-    <meta property="og:url" content="https://osumba.digitalleap.africa">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Evans Osumba Portfolio">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Evans Atula Osumba - Full-Stack Developer">
-    <meta name="twitter:description" content="Professional Full-Stack Developer specializing in Django, PHP, Flutter, and React. Based in Nairobi, Kenya.">
-    <meta name="twitter:image" content="https://osumba.digitalleap.africa/IMG-20250908-WA0168.png">
-    
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Evans Atula Osumba",
-        "jobTitle": "Full-Stack Developer",
-        "description": "Professional Full-Stack and Mobile Developer specializing in Django, PHP, Flutter, and React",
-        "url": "https://osumba.digitalleap.africa",
-        "image": "https://osumba.digitalleap.africa/IMG-20250908-WA0168.png",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Nairobi",
-            "addressCountry": "Kenya"
-        },
-        "email": "e.osumba@digitalleap.africa",
-        "telephone": "+254707868194",
-        "sameAs": [
-            "https://github.com/osumba404",
-            "https://digitalleap.africa"
-        ],
-        "knowsAbout": ["Web Development", "Mobile App Development", "Django", "PHP", "Flutter", "React", "JavaScript", "Python"]
-    }
-    </script>
-    
+    <title>Evans Atula Osumba</title>
+    <meta name="description" content="Evans Atula Osumba — Full-Stack Developer & Mobile App Developer based in Nairobi, Kenya.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="new-style.css">
-    <link rel="stylesheet" href="hero-style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container header-container">
-            <a href="#" class="logo">Evans <span> Osumba</span></a>
-            <ul class="nav-links">
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="theme-toggle" id="theme-toggle">
-                <i class="fas fa-moon"></i>
+
+    <a href="#content" class="mw-jump-link">Jump to content</a>
+
+    <header class="mw-header">
+        <div class="mw-header-top">
+            <button class="mw-nav-toggle" type="button" aria-label="Main menu" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
             </button>
-            <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
+            <a href="#" class="mw-logo">
+                <svg class="mw-logo-icon" viewBox="0 0 50 50" aria-hidden="true">
+                    <circle cx="25" cy="25" r="24" fill="#ffffff" stroke="#a2a9b1" stroke-width="1"/>
+                    <text x="25" y="32" text-anchor="middle" font-family="Cambria, Georgia, serif" font-size="22" font-weight="600" fill="#0645ad">Ω</text>
+                </svg>
+                <div class="mw-logo-text">
+                    <div class="mw-logo-title">Osumba404's Portfolio</div>
+                    <div class="mw-logo-tagline">Welcome all Challenges, Conquer them all</div>
+                </div>
+            </a>
+            <form class="mw-search" role="search">
+                <input type="search" placeholder="Search OsumbaWiki" aria-label="Search OsumbaWiki">
+                <button type="submit" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></button>
+            </form>
+            <div class="mw-header-actions">
+                <ul class="mw-personal">
+                    <li><a href="mailto:e.osumba@digitalleap.africa">Contact</a></li>
+                    <li><a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer">Contributions</a></li>
+                </ul>
+                <button class="mw-theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fas fa-moon icon-moon" aria-hidden="true"></i>
+                    <i class="fas fa-sun icon-sun" aria-hidden="true"></i>
+                </button>
             </div>
+        </div>
+        <div class="mw-header-search-row">
+            <form class="mw-search" role="search">
+                <input type="search" placeholder="Search OsumbaWiki" aria-label="Search OsumbaWiki">
+                <button type="submit" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></button>
+            </form>
         </div>
     </header>
 
-    <!-- 1️⃣ HERO SECTION -->
-    <section class="hero-modern">
-        <div class="hero-wrapper">
-            <div class="hero-grid">
-                <!-- LEFT COLUMN: Main content -->
-                <div class="hero-content-new">
-                    <div class="hero-content-inner">
-                        <div class="accent-badge">
-                            <i class="fas fa-shield-alt"></i> Software Engineer · Kenya
-                        </div>
-                        <h1>Evans <span class="highlight-name">Atula Osumba</span></h1>
-                        <div class="subhead-new">
-                            Software Engineer - Django, Python, PHP, Laravel
-                        </div>
-                        <div class="description-new">
-                            I build scalable web & mobile solutions that solve real problems. 
-                            Committed to promoting digital literacy and empowering individuals in STEM across Kenya and Africa.
-                        </div>
-                        
-                        <div class="tech-pills">
-                            <span class="pill-new"><i class="fab fa-python"></i> Django</span>
-                            <span class="pill-new"><i class="fab fa-php"></i> Laravel</span>
-                            <span class="pill-new"><i class="fab fa-flutter"></i> Flutter</span>
-                            <span class="pill-new"><i class="fab fa-react"></i> React</span>
-                            <span class="pill-new"><i class="fas fa-cloud-upload-alt"></i> Scalable APIs</span>
-                        </div>
-                        
-                        <div class="button-group-new">
-                            <button class="btn-primary-new" id="viewWorkBtn">
-                                <i class="fas fa-arrow-right"></i> View My Work
-                            </button>
-                            <button class="btn-outline-new" id="contactBtn">
-                                <i class="fas fa-comment-dots"></i> Contact Me
-                            </button>
-                        </div>
-                        
-                        <!-- subtle trust line -->
-                        <div style="margin-top: 2rem; font-size: 0.8rem; color: var(--text-medium); display: flex; gap: 1.5rem; flex-wrap: wrap;">
-                            <span><i class="fas fa-check-circle" style="color:var(--accent);"></i> 3+ Years Experience</span>
-                            <span><i class="fas fa-code-branch" style="color:var(--accent);"></i> 17+ Projects Delivered</span>
-                            <span><i class="fas fa-users" style="color:var(--accent);"></i> 4 Communities Impacted</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- RIGHT COLUMN: Trust signals & stats -->
-                <div class="hero-visual">
-                    <div class="hero-visual-inner">
-                        <div class="stat-item">
-                            <div class="stat-number">
-                                <i class="fas fa-globe-africa"></i> 
-                                <span>Africa</span>
-                            </div>
-                            <div class="stat-label">A STEM Advocate · Digital Literacy Champion</div>
-                        </div>
-                        
-                        <div class="stat-item">
-                            <div class="stat-number">
-                                <span>7+</span>
-                                <span style="font-size:1.2rem;">workshops</span>
-                            </div>
-                            <div class="stat-label">Tech mentorship & training sessions across Kenya</div>
-                        </div>
-                        
-                        <div class="stat-item">
-                            <div class="stat-number">
-                                <span>100%</span>
-                                <span style="font-size:1.2rem;">client trust</span>
-                            </div>
-                            <div class="stat-label">Delivered high-impact solutions with measurable ROI</div>
-                        </div>
-                        
-                        <div class="badge-list">
-                            <span class="badge-white"><i class="fab fa-laravel"></i> Laravel</span>
-                            <span class="badge-white"><i class="fab fa-python"></i> Django</span>
-                            <span class="badge-white"><i class="fas fa-database"></i> PostgreSQL</span>
-                            <span class="badge-white"><i class="fab fa-docker"></i> Docker</span>
-                        </div>
-                        
-                        <div class="trust-quote">
-                            <i class="fas fa-quote-left" style="margin-right: 8px; opacity: 0.7;"></i> 
-                            Let's code a better tomorrow and make digital solutions accessible to all.
-                            <div class="quote-author">~ Evans Atula Osumba</div>
-                        </div>
-                    </div>
+    <div class="mw-sidebar-overlay" aria-hidden="true"></div>
+
+    <div class="mw-page-container">
+
+        <aside class="mw-sidebar" aria-label="Site navigation">
+            <nav class="mw-navbox">
+                <div class="mw-navbox-title">Navigation</div>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home" aria-hidden="true"></i> Main page</a></li>
+                    <li><a href="#content"><i class="fas fa-file-lines" aria-hidden="true"></i> Current article</a></li>
+                    <li><a href="#Projects"><i class="fas fa-folder-open" aria-hidden="true"></i> Projects</a></li>
+                    <li><a href="#External_links"><i class="fas fa-link" aria-hidden="true"></i> External links</a></li>
+                </ul>
+            </nav>
+            <nav class="mw-navbox">
+                <div class="mw-navbox-title">Contribute</div>
+                <ul>
+                    <li><a href="mailto:e.osumba@digitalleap.africa"><i class="fas fa-envelope" aria-hidden="true"></i> Contact Evans</a></li>
+                    <li><a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+                    <li><a href="https://digitalleap.africa" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe" aria-hidden="true"></i> Digital Leap Africa</a></li>
+                </ul>
+            </nav>
+            <nav class="mw-navbox">
+                <div class="mw-navbox-title">Tools</div>
+                <ul>
+                    <li><a href="#toc"><i class="fas fa-list" aria-hidden="true"></i> Table of contents</a></li>
+                    <li><a href="#" onclick="window.print(); return false;"><i class="fas fa-print" aria-hidden="true"></i> Printable version</a></li>
+                    <li><a href="../index.html"><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Modern portfolio</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="mw-content" id="content">
+
+            <div class="mw-indicators">
+                <span class="mw-indicator"><i class="fas fa-star" aria-hidden="true"></i> Featured article</span>
+                <span class="mw-indicator"><i class="fas fa-user" aria-hidden="true"></i> Living person</span>
+            </div>
+
+            <h1 class="mw-first-heading">Evans Atula Osumba</h1>
+            <p class="mw-tagline-short">Software engineer, community builder, and founder of Digital Leap Africa</p>
+
+            <div class="mw-tabs-wrap">
+                <ul class="mw-tabs">
+                    <li class="selected"><a href="#"><i class="fas fa-file-lines" aria-hidden="true"></i> Article</a></li>
+                    <li><a href="mailto:e.osumba@digitalleap.africa"><i class="fas fa-comments" aria-hidden="true"></i> Talk</a></li>
+                    <li><a href="#"><i class="fas fa-book-open" aria-hidden="true"></i> Read</a></li>
+                    <li><a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fas fa-code" aria-hidden="true"></i> View source</a></li>
+                    <li><a href="#"><i class="fas fa-clock-rotate-left" aria-hidden="true"></i> View history</a></li>
+                </ul>
+            </div>
+
+            <div class="mw-article-meta">
+                From Osumba Evans
+            </div>
+
+            <table class="infobox" role="presentation">
+                <caption class="infobox-title">Evans Atula Osumba</caption>
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="infobox-image">
+                            <img src="/DSC07967.jpg" alt="Evans Atula Osumba in 2025">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="infobox-caption">Osumba in <span id="year"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Born</th>
+                        <td>Kenya</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Occupation</th>
+                        <td>Software engineer<br>Data analyst</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Known&nbsp;for</th>
+                        <td><a href="https://digitalleap.africa" target="_blank" rel="noopener noreferrer">Software Development</a>, web &amp; mobile development, Data Analysis, STEM advocacy</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Education</th>
+                        <td>Advanced Diploma in Software Engineering<br><small><a href="https://aptech.ac.ke" target="_blank" rel="noopener noreferrer">Aptech Computer Education</a></small>
+                        <br>Bachelors in Technology in Communication and Computer Networks<br><small><a href="https://www.tukenya.ac.ke" target="_blank" rel="noopener noreferrer">Technical University of Kenya</a></small></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Website</th>
+                        <td><a href="https://osumba404.tech" target="_blank" rel="noopener noreferrer">Osumba's Portfolio</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Email</th>
+                        <td><a href="mailto:osumbaevans21@gmail.com">osumbaevans21@gmail.com</a>
+                        <a href="mailto:e.osumba@digitalleap.africa">e.osumba@digitalleap.africa</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">GitHub</th>
+                        <td><a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer">osumba404</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="mw-lead">
+                <strong>Evans Atula Osumba</strong> is a Kenyan <a href="#Skills">full-stack software engineer</a>
+                based in <a href="#Early_life">Nairobi</a>. He is the co-founder of
+                <a href="https://digitalleap.africa" target="_blank" rel="noopener noreferrer">Digital Leap Africa</a>,
+                a technology community focused on digital literacy and open-source collaboration across Africa.
+                His work spans web platforms, agricultural technology, wildlife conservation software, and data analysis
+                for public health research.
+            </p>
+
+            <p>
+                Osumba specializes in building scalable web and mobile solutions using
+                <a href="#Skills">Django, Laravel, React, and Flutter</a>, with additional experience in
+                data cleaning, statistical analysis, and developer mentorship.
+            </p>
+
+            <div id="toc">
+                <div class="toc-title">Contents</div>
+                <ol>
+                    <li><a href="#Early_life">Early life and education</a></li>
+                    <li><a href="#Career">Career</a>
+                        <ol>
+                            <li><a href="#GEOHealth_Hub">Tropical Institute of Community Health and Development in Africa</a></li>
+                            <li><a href="#GEOHealth_Hub">GEOHealth Hub</a></li>
+                            <li><a href="#Animal_IQ">Animal IQ</a></li>
+                            <li><a href="#Digital_Leap_Africa">Digital Leap Africa</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Skills">Skills and technologies</a></li>
+                    <li><a href="#External_links">External links</a></li>
+                    <li><a href="#References">References</a></li>
+                </ol>
+            </div>
+
+            <h2 id="Early_life">Early life and education<span class="mw-editsection"></span></h2>
+            <p>
+                Evans Atula Osumba is based in Nairobi, Kenya, where he studied software engineering at
+                Edulink International College. He earned a Diploma in Information Systems Management (2023–2024)
+                and an Advanced Diploma in Software Engineering (2024–2025), covering mobile development,
+                enterprise applications, server management, and software testing.
+            </p>
+            <p>
+                Beyond formal education, Osumba has taught web development to underserved youth through the
+                LEA Foundation in Mukuru Slums and has organized technical workshops and mentorship programs
+                across Kenya as part of his STEM advocacy work.
+            </p>
+
+            <h2 id="Career">Career<span class="mw-editsection"></span></h2>
+            <h3 id="GEOHealth_Hub">Tropical Institute of Community Health and Development in Africa</h3>
+            <p>
+                Since June 2026, Osumba has worked as a <strong>Software Engineer</strong> at
+                <a href="https://tich.africa" target="_blank" rel="noopener noreferrer">Tropical Institute of Community Health and Development in Africa</a>. He leads in the developing 
+                and maintaining the organization's website and mobile application (Enterprise Resource Planning (ERP)).
+            </p>
+            <ul>
+                <li>Web development using Laravel</li>
+                <li>Mobile app development using Flutter</li>
+                <li>Database management using MySQL</li>
+            </ul>
+
+            <h3 id="GEOHealth_Hub">GEOHealth Hub — University of Nairobi</h3>
+            <p>
+                Since March 2026, Osumba has worked as a <strong>Junior Data Analyst (Intern)</strong> at
+                <a href="https://geohealth-hub.org/" target="_blank" rel="noopener noreferrer">GEOHealth Hub</a> at the University of Nairobi. He assists with cleaning and analyzing health-related
+                data from hospital records and school health assessments, as well as air quality data collected
+                for research purposes.
+            </p>
+            <ul>
+                <li>Data cleaning and preprocessing of large health datasets</li>
+                <li>Statistical analysis for research publications</li>
+                <li>Data visualizations and stakeholder presentations</li>
+            </ul>
+
+            <h3 id="Animal_IQ">Animal IQ</h3>
+            <p>
+                From March 2025, Osumba has served as <strong>Innovation Lead</strong> at
+                <a href="https://animaliq.co.ke" target="_blank" rel="noopener noreferrer">Animal IQ</a>,
+                a wildlife conservation technology initiative. He leads development of digital tools for
+                conservation enthusiasts, researchers, and the general public across Kenya.
+            </p>
+
+            <h3 id="Digital_Leap_Africa">Digital Leap Africa</h3>
+            <p>
+                In January 2025, Osumba co-founded <a href="https://digitalleap.africa" target="_blank" rel="noopener noreferrer">Digital Leap Africa</a>
+                as Community Lead. The organization has grown to over 600 members, hosted 20+ expert webinars,
+                and mentored more than 100 aspiring developers.
+            </p>
+
+            <h3>Previous roles</h3>
+            <div class="table-scroll">
+                <table class="wikitable">
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th>Role</th>
+                            <th>Organization</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Oct 2024 – Nov 2025</td>
+                            <td>Coding Instructor (Volunteer)</td>
+                            <td>LEA Foundation</td>
+                            <td>Taught HTML, CSS &amp; JavaScript to 50+ students in Mukuru Slums</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 2023 – Jan 2024</td>
+                            <td>Junior Real Estate Listing Agent (Intern)</td>
+                            <td>Houzme Africa</td>
+                            <td>Digital marketing; increased listing engagement by 40%</td>
+                        </tr>
+                        <tr>
+                            <td>March 2026 – Present</td>
+                            <td>Research Assistant (Intern)</td>
+                            <td>GEOHealth Hub - University of Nairobi</td>
+                            <td>Assisted with cleaning and analyzing health-related data from hospital records and school health assessments, as well as air quality data collected for research purposes.</td>
+                        </tr>
+                        <tr>
+                            <td>June 2026 – Present</td>
+                            <td>Software Engineer (Consultant)</td>
+                            <td>Tropical Institute of Community Health and Development in Africa</td>
+                            <td>Was tasked with developing and maintaining the organization's Enterprise Resource Planning (ERP) 
+                                system that was used to manage the organization's operations.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 id="Projects">Featured Projects<span class="mw-editsection"></span></h2>
+            <p>
+                Osumba has delivered 17+ software projects across agriculture, community building,
+                conservation, and civic engagement. Notable works include:
+            </p>
+
+            <div class="table-scroll">
+                <table class="wikitable">
+                    <thead>
+                        <tr>
+                            <th>Project</th>
+                            <th>Description</th>
+                            <th>Stack</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="thumb"><img src="/tich-homepage.png" alt="Animal IQ"></td>
+                            <td><strong>TICH In Africa ERP</strong> - a web-based Enterprise Resource Planning (ERP) system for TICH In Africa.</td>
+                            <td>PHP, MySQL, Bootstrap</td>
+                            <td><a href="https://tich.africa/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Website</a> · <a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></td>
+                        </tr>
+                        <tr>
+                            <td class="thumb"><img src="/ley-tours-home.png" alt="Animal IQ"></td>
+                            <td><strong>Leyla Safari Tours</strong> - A tours and travel agency agency that helps you plan your safari and travel to Kenya.</td>
+                            <td>PHP, MySQL, Bootstrap</td>
+                            <td><a href="https://leylasafaritours.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Website</a> · <a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></td>
+                        </tr>
+                        <tr>
+                            <td class="thumb"><img src="/occ.png" alt="Animal IQ"></td>
+                            <td><strong>ODM Comrades Chapter</strong> - ODM Comrades Chapter is a dynamic platform designed to 
+                                connect and empower student and youths of the ODM political party in Kenya, fostering community engagement and political activism.</td>
+                            <td>PHP, MySQL, Bootstrap</td>
+                            <td><a href="https://occ.co.ke" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Website</a> · <a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></td>
+                        </tr>
+                        <tr>
+                            <td class="thumb"><img src="/dlafrica.png" alt="Digital Leap Africa"></td>
+                            <td><strong>Digital Leap Africa</strong> - Inclusive tech community empowering Africa's digital creators through mentorship and open-source collaboration.</td>
+                            <td>Laravel, React, MySQL, Tailwind CSS</td>
+                            <td><a href="https://digitalleap.africa" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Website</a> · <a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></td>
+                        </tr>                     
+                        <tr>
+                            <td class="thumb"><img src="/agroswift.png" alt="Agroswift"></td>
+                            <td><strong>Agroswift</strong> - AgTech platform providing farmers with data-driven insights and communication tools.</td>
+                            <td>PHP, MySQL, Daraja API</td>
+                            <td><a href="https://agroswift.co.ke/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Website</a> · <a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></td>
+                        </tr>
+                        <tr>
+                            <td class="thumb"><img src="/animal-iq-new.png" alt="Animal IQ"></td>
+                            <td><strong>Animal IQ</strong> - Wildlife community platform for conservation enthusiasts, researchers, and the public.</td>
+                            <td>PHP, MySQL, Bootstrap</td>
+                            <td><a href="https://animaliq.co.ke" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Website</a> · <a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></td>
+                        </tr>
+                        <tr>
+                            <td class="thumb"><img src="/gainfarm-photo.png" alt="GainFarm"></td>
+                            <td><strong>GainFarm</strong> - Agricultural e-commerce marketplace connecting farmers and customers in Kenya with payment integration.</td>
+                            <td>Django, PostgreSQL, Bootstrap</td>
+                            <td><a href="https://gainfarm.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Website</a> · <a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 id="Skills">Skills and technologies<span class="mw-editsection"></span></h2>
+            <div class="table-scroll">
+                <table class="wikitable">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Technologies</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Frontend</td>
+                            <td>JavaScript, HTML/CSS, React, Flutter, Bootstrap</td>
+                        </tr>
+                        <tr>
+                            <td>Backend</td>
+                            <td>Python, Django, PHP, Laravel, REST APIs</td>
+                        </tr>
+                        <tr>
+                            <td>Database</td>
+                            <td>MySQL, SQLite, PostgreSQL</td>
+                        </tr>
+                        <tr>
+                            <td>Data science</td>
+                            <td>Python, Pandas, Matplotlib, Scikit-learn, TensorFlow</td>
+                        </tr>
+                        <tr>
+                            <td>Tools</td>
+                            <td>GitHub, AWS, VS Code, Figma, Docker, Agile</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 id="External_links">External links<span class="mw-editsection"></span></h2>
+            <ul class="plainlist">
+                <li><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://osumba.digitalleap.africa" target="_blank" rel="noopener noreferrer">Official portfolio</a></li>
+                <li><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer">GitHub profile</a></li>
+                <li><i class="fas fa-users" aria-hidden="true"></i> <a href="https://digitalleap.africa" target="_blank" rel="noopener noreferrer">Digital Leap Africa</a></li>
+                <li><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:e.osumba@digitalleap.africa">Email contact</a></li>
+            </ul>
+
+            <h2 id="References">References<span class="mw-editsection"><a href="#">[edit]</a></span></h2>
+            <ol class="references">
+                <li id="ref-1"><a href="https://digitalleap.africa" target="_blank" rel="noopener noreferrer">Digital Leap Africa — official website</a>. Retrieved 24 September 2026.</li>
+                <li id="ref-2"><a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer">Evans Osumba — GitHub</a>. Retrieved 24 September 2026.</li>
+                <li id="ref-3"><a href="https://animaliq.co.ke" target="_blank" rel="noopener noreferrer">Animal IQ — wildlife community platform</a>. Retrieved 24 September 2026.</li>
+            </ol>
+
+            <div class="mw-navbox-horizontal">
+                <div class="mw-navbox-title">Evans Atula Osumba</div>
+                <div class="mw-navbox-body">
+                    <a href="#Early_life">Biography</a> ·
+                    <a href="#Career">Career</a> ·
+                    <a href="#Projects">Projects</a> ·
+                    <a href="#Skills">Skills</a> ·
+                    <a href="mailto:e.osumba@digitalleap.africa">Contact</a>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- 2️⃣ PROJECTS SECTION (Now placed right after Hero) -->
-    <section class="projects" id="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                 <div class="project-card">
-                    <div class="project-image" style="background-image: url('dlafrica.png')"></div>
-                    <div class="project-content">
-                        <h3>Digital Leap Africa</h3>
-                        <p>Digital Leap Africa (DLA) is an inclusive technology community empowering Africa’s next generation of digital creators.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Laravel</span>
-                            <span class="project-tag">React</span>
-                            <span class="project-tag">MySQL</span>
-                            <span class="project-tag">Daraja</span>
-                            <span class="project-tag">Tailwind CSS</span>
-                           
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://digitalleap.africa" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image" style="background-image: url('gainfarm-photo.png')"></div>
-                    <div class="project-content">
-                        <h3>GainFarm - Agricultural E-commerce Platform</h3>
-                        <p>Bridges the gap between farmers and customers in Kenya with a full-featured marketplace.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Django</span>
-                            <span class="project-tag">PostgreSQL</span>
-                            <span class="project-tag">Bootstrap</span>
-                            <span class="project-tag">Payment Integration</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://gainfarm.com" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image" style="background-image: url('animal-iq-new.png')"></div>
-                    <div class="project-content">
-                        <h3>Animal IQ - Wildlife Community Platform</h3>
-                        <p>Comprehensive platform for conservation enthusiasts, researchers, and the general public.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">PHP</span>
-                            <span class="project-tag">MySQL</span>
-                            <span class="project-tag">Bootstrap</span>
-                            <span class="project-tag">Community Features</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://animaliq.co.ke" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-               
-                <div class="project-card">
-                    <div class="project-image" style="background-image: url('occ.png')"></div>
-                    <div class="project-content">
-                        <h3>ODM Comrades Chapter</h3>
-                        <p>ODM Comrades Chapter is a dynamic platform designed to connect and empower student and youths of the ODM political party in Kenya, fostering community engagement and political activism.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">PHP</span>
-                            <span class="project-tag">Daraja</span>
-                            <span class="project-tag">MySQL</span>
-                            <span class="project-tag">Bootstrap</span>
-                        </div>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://occ.co.ke/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                
-                <div class="project-card">
-                    <div class="project-image" style="background-image: url('agroswift.png')"></div>
-                    <div class="project-content">
-                        <h3>Agroswift</h3>
-                        <p>Agroswift is a comprehensive agricultural technology platform designed to empower farmers with data-driven insights and seamless communication tools.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">PHP</span>
-                            <span class="project-tag">Daraja</span>
-                            <span class="project-tag">MySQL</span>
-                           
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://agroswift.co.ke/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
+            <div class="mw-categories">
+                <strong>Categories:</strong>
+                <a href="#">Kenyan software engineers</a>
+                <a href="#">Full-stack developers</a>
+                <a href="#">Mobile app developers</a>
+                <a href="#">STEM advocates</a>
+                <a href="#">Living people</a>
             </div>
-        </div>
-    </section>
 
-    <!-- 3️⃣ ABOUT ME SECTION -->
-    <section class="about" id="about">
-        <div class="container">
-            <h2 class="section-title">About Evans Osumba</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Building Digital Solutions That Matter in Kenya and Beyond</h3>
-                    <p>I'm Evans Atula Osumba, a dedicated Full-Stack and Mobile Developer based in Nairobi, Kenya, with expertise in Django, PHP, Flutter, React, and modern web development frameworks. I specialize in creating scalable software solutions that address real-world challenges while maintaining clean, efficient code and best practices.</p>
-                    <p>As a professional software engineer in Kenya, I'm deeply committed to promoting digital literacy and empowering individuals in STEM through mentorship and community engagement. I believe technology should be accessible to everyone, and I actively work toward that goal through my involvement with Digital Leap Africa and LEA Foundation, fostering the next generation of developers in Africa.</p>
-                    <!-- <p>When I'm not coding, you can find me mentoring aspiring developers, exploring new technologies, or enjoying the vibrant Nairobi tech community.</p> -->
-                </div>
-                <div class="about-image" role="img" aria-label="Evans Osumba working on software development projects"></div>
-            </div>
-        </div>
-    </section>
+        </main>
+    </div>
 
-    <!-- 4️⃣ SKILLS & TECH STACK SECTION -->
-    <section class="skills-section" id="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-categories">
-                <div class="skills-category">
-                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
-                    <div class="skills-list">
-                        <span class="skill-badge">JavaScript</span>
-                        <span class="skill-badge">HTML/CSS</span>
-                        <span class="skill-badge">XML</span>
-                        <span class="skill-badge">Flutter</span>
-                        <span class="skill-badge">Bootstrap</span>
-                    </div>
-                </div>
-                <div class="skills-category">
-                    <h3><i class="fas fa-server"></i> Backend</h3>
-                    <div class="skills-list">
-                        <span class="skill-badge">Python</span>
-                        <span class="skill-badge">Django</span>
-                        <span class="skill-badge">PHP</span>
-                        <span class="skill-badge">Laravel</span>
-                        <span class="skill-badge">REST APIs</span>
-                    </div>
-                </div>
-                <div class="skills-category">
-                    <h3><i class="fas fa-database"></i> Database</h3>
-                    <div class="skills-list">
-                        <span class="skill-badge">MySQL</span>
-                        <!-- <span class="skill-badge">PostgreSQL</span> -->
-                        <span class="skill-badge">SQLite</span>
-                    </div>
-                </div>
-                 <div class="skills-category">
-                    <h3><i class="fas fa-laptop-code"></i> Data Science & Machine Learning</h3>
-                    <div class="skills-list">
-                        <span class="skill-badge">Jupiter</span>
-                        <span class="skill-badge">Python</span>
-                        <span class="skill-badge">TensorFlow</span>
-                        <span class="skill-badge">Scikit-learn</span>
-                        <span class="skill-badge">Pandas</span>
-                        <span class="skill-badge">Matplotlib</span>
-                        <span class="skill-badge">Anaconda</span>
-                    </div>
-                </div>
-                <div class="skills-category">
-                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
-                    <div class="skills-list">
-                        <span class="skill-badge">GitHub</span>
-                        <span class="skill-badge">AWS</span>
-                        <span class="skill-badge">VS Code</span>
-                        <span class="skill-badge">Figma</span>
-                        <span class="skill-badge">Agile</span>
-                        
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-    <!-- 5️⃣ EXPERIENCE SECTION -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="experience-timeline">
-                <!-- <div class="timeline-item active">
-                    <div class="timeline-card">
-                        <div class="timeline-status current">Current</div>                        
-                        <div class="timeline-content">
-                            <h3 class="position-title">Project Lead</h3>
-                            <div class="company-info">
-                                <i class="fas fa-building"></i>
-                                <span class="company-name">Rilakin Investments</span>
-                                <span class="company-type">FinTech</span>
-                            </div>
-                            <p class="job-description">Leading the development of a comprehensive FinTech platform for members and shareholders, implementing secure financial solutions and user-centric design.</p>
-                            <div class="achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Architecting scalable financial platform</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Leading cross-functional development team</span>
-                                </div>
-                            </div>
-                            <div class="tech-stack">
-                                <span class="tech-tag">Django</span>
-                                <span class="tech-tag">PostgreSQL</span>
-                                <span class="tech-tag">Payment APIs</span>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="timeline-item active">
-                    <div class="timeline-card">
-                        <div class="timeline-status current">March 2026 - Current</div>                        
-                        <div class="timeline-content">
-                            <h3 class="position-title">Junior Data Analyst (Intern)</h3>
-                            <div class="company-info">
-                                <i class="fas fa-building"></i>
-                                <span class="company-name">GEOHealth Hub - UON</span>
-                                <span class="company-type">EnviroTech</span>
-                            </div>
-                            <p class="job-description">Assisting in the cleaning and analysis of health-related data (from hospital records 
-                                and school going children health assessments), air quality data collected for research purposes.</p>
-                           
-                            <div class="achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Data cleaning and preprocessing</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Conducting statistical analysis</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Creating data visualizations & presentations</span>
-                                </div>
-                            </div>
-                            <div class="tech-stack">
-                                <span class="tech-tag">Python</span>
-                                <span class="tech-tag">Pandas</span>
-                                <span class="tech-tag">Matplotlib</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item active">
-                    <div class="timeline-card">
-                        <div class="timeline-status current">March 2025 - Current</div>                        
-                        <div class="timeline-content">
-                            <h3 class="position-title">Innovation Lead</h3>
-                            <div class="company-info">
-                                <i class="fas fa-leaf"></i>
-                                <span class="company-name">Animal IQ</span>
-                                <span class="company-type">NatureTech</span>
-                            </div>
-                            <p class="job-description">Leading innovation initiatives in wildlife conservation technology, developing digital solutions to enhance animal welfare and conservation efforts across Africa.</p>
-                            <div class="achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Developing conservation technology platform</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Building wildlife data management systems</span>
-                                </div>
-                            </div>
-                            <div class="tech-stack">
-                                <span class="tech-tag">PHP</span>
-                                <span class="tech-tag">MySQL</span>
-                                <span class="tech-tag">Conservation Tech</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item active">
-                    <div class="timeline-card">
-                        <div class="timeline-status current">Jan 2025 - Current</div>                     
-                        <div class="timeline-content">
-                            <h3 class="position-title">Co-founder & Community Lead</h3>
-                            <div class="company-info">
-                                <i class="fas fa-users"></i>
-                                <span class="company-name">Digital Leap Africa</span>
-                                <span class="company-type">Tech Community</span>
-                            </div>
-                            <p class="job-description">Founded and scaled a thriving tech community, fostering digital literacy and empowering the next generation of African developers through mentorship and education.</p>
-                            <div class="achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-users"></i>
-                                    <span>Built community of 600+ tech enthusiasts</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-video"></i>
-                                    <span>Organized 20+ webinars with industry experts</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-graduation-cap"></i>
-                                    <span>Mentored 100+ aspiring developers</span>
-                                </div>
-                            </div>
-                            <div class="tech-stack">
-                                <span class="tech-tag">Community Building</span>
-                                <span class="tech-tag">Mentorship</span>
-                                <span class="tech-tag">Event Management</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-card">
-                        <div class="timeline-status completed">Oct 2024 - Nov 2025</div>
-                        <div class="timeline-content">
-                            <h3 class="position-title">Coding Instructor</h3>
-                            <div class="company-info">
-                                <i class="fas fa-heart"></i>
-                                <span class="company-name">LEA Foundation</span>
-                                <span class="company-type">Non-Profit</span>
-                            </div>
-                            <p class="job-description">Teaching web development fundamentals to underserved youth in Mukuru Slums, creating pathways to digital opportunities and economic empowerment.</p>
-                            <div class="achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-chalkboard-teacher"></i>
-                                    <span>Teaching HTML, CSS & JavaScript</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-hands-helping"></i>
-                                    <span>Fostering inclusive learning environment</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-laptop-code"></i>
-                                    <span>Trained 50+ students in web development</span>
-                                </div>
-                            </div>
-                            <div class="tech-stack">
-                                <span class="tech-tag">HTML/CSS</span>
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">Teaching</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-card">
-                        <div class="timeline-status completed">Oct 2023 - Jan 2024</div>
-                        <div class="timeline-content">
-                            <h3 class="position-title">Real Estate Listing Specialist</h3>
-                            <div class="company-info">
-                                <i class="fas fa-home"></i>
-                                <span class="company-name">Houzme Africa</span>
-                                <span class="company-type">PropTech</span>
-                            </div>
-                            <p class="job-description">Managed property listings and digital marketing campaigns, enhancing brand visibility and customer engagement through strategic content creation.</p>
-                            <div class="achievements">
-                                <div class="achievement-item">
-                                    <i class="fas fa-chart-line"></i>
-                                    <span>Increased listing engagement by 40%</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-ad"></i>
-                                    <span>Created targeted ad campaigns</span>
-                                </div>
-                                <div class="achievement-item">
-                                    <i class="fas fa-clock"></i>
-                                    <span>Maintained 24hr email response time</span>
-                                </div>
-                            </div>
-                            <div class="tech-stack">
-                                <span class="tech-tag">Digital Marketing</span>
-                                <span class="tech-tag">Content Creation</span>
-                                <span class="tech-tag">CRM</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        
-                     
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- 6️⃣ TESTIMONIALS SECTION -->
-    <!-- <section class="testimonials" id="testimonials">
-        <div class="container">
-            <h2 class="section-title">Testimonials</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        Evans demonstrated exceptional problem-solving skills during our project collaboration. His attention to detail and commitment to quality code is impressive.
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">JD</div>
-                        <div class="author-info">
-                            <h4>John Doe</h4>
-                            <p>Project Manager, Tech Solutions</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        As a mentor at LEA Foundation, Evans has shown remarkable patience and ability to explain complex concepts in simple terms. The students really connect with him.
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">SM</div>
-                        <div class="author-info">
-                            <h4>Sarah Mwangi</h4>
-                            <p>Director, LEA Foundation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        The Digital Leap Africa community has grown tremendously under Evans' leadership. His passion for technology and community building is truly inspiring.
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">AK</div>
-                        <div class="author-info">
-                            <h4>Alex Kamau</h4>
-                            <p>Community Member</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Education Section (Optional but kept) -->
-    <section class="education" id="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-cards">
-                <div class="education-card">
-                    <h3>Advanced Diploma in Software Engineering</h3>
-                    <span class="institution"><i class="fas fa-university"></i>Edulink International College, Nairobi</span>
-                    <span class="duration"><i class="fas fa-calendar-alt"></i>June 2024 - December 2025</span>
-                    <div class="coursework">
-                        <span class="course-bubble">Mobile Development</span>
-                        <span class="course-bubble">Building Enterprise Applications</span>
-                        <span class="course-bubble">Server Management</span>
-                        <span class="course-bubble">Software Testing</span>
-                        <span class="course-bubble">Software Development Cife Cycle</span>
-                    </div>
-                </div>
-                <div class="education-card">
-                    <h3>Diploma in Information Systems Management</h3>
-                    <span class="institution"><i class="fas fa-university"></i>Edulink International College, Nairobi</span>
-                    <span class="duration"><i class="fas fa-calendar-alt"></i>May 2023 - May 2024</span>
-                    <div class="coursework">
-                        <span class="course-bubble">Object-Oriented Programming</span>
-                        <span class="course-bubble">Data Structures</span>
-                        <span class="course-bubble">Web Development</span>
-                        <span class="course-bubble">Database Management</span>
-                        <span class="course-bubble">Software Design</span>
-                    </div>
-                </div>
-                <!-- <div class="education-card">
-                    <h3>Bachelor in Technology Communication and Computer Networks</h3>
-                    <span class="institution"><i class="fas fa-university"></i>The Technical University of Kenya</span>
-                    <span class="duration"><i class="fas fa-calendar-alt"></i>2023 - Present</span>
-                    <div class="coursework">
-                        <span class="course-bubble">Database Management</span>
-                        <span class="course-bubble">Computer Networks</span>
-                        <span class="course-bubble">Communication Systems</span>
-                        <span class="course-bubble">Electronics</span>
-                        <span class="course-bubble">Accounts</span>
-                        <span class="course-bubble">Statistics</span>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </section>
-
-    <!-- 7️⃣ CONTACT SECTION -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Location</h3>
-                            <p>Nairobi, Kenya</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Phone</h3>
-                            <p>+2547 078 681 94</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <!-- <p>osumbaevans21@gmail.com</p> -->
-                            <p>e.osumba@digitalleap.africa</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>GitHub</h3>
-                            <p>github.com/osumba404</p>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="contact">Your Contact</label>
-                            <input type="text" id="contact" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" class="form-control" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 8️⃣ FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="footer-main">
-                <div class="footer-section">
-                    <div class="footer-logo">Evans<span>.</span></div>
-                    <p class="footer-description">Full-Stack & Mobile Developer passionate about creating digital solutions that make a difference. Let's build something amazing together.</p>
-                    <div class="footer-social">
-                        <a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="footer-social-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#education">Education</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Mobile Apps</a></li>
-                        <li><a href="#">API Development</a></li>
-                        <li><a href="#">Consulting</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <div class="footer-contact">
-                        <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
-                        <p><i class="fas fa-envelope"></i> e.osumba@digitalleap.africa</p>
-                        <p><i class="fas fa-envelope"></i> osumbaevans21@gmail.com</p>
-                        <p><i class="fas fa-phone"></i> +254 707 868 194</p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="copyright">
-                    <p>&copy; 2025 Evans Atula Osumba. All Rights Reserved.</p>
-                </div>
-                <div class="footer-bottom-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                </div>
-            </div>
+    <footer class="mw-footer">
+        <ul>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">About OsumbaWiki</a></li>
+            <li><a href="#">Disclaimers</a></li>
+            <li><a href="mailto:e.osumba@digitalleap.africa">Contact</a></li>
+            <li><a href="https://github.com/osumba404" target="_blank" rel="noopener noreferrer">Code of Conduct</a></li>
+        </ul>
+        <div class="mw-footer-info">
+            <p>Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.</p>
+            <p style="margin-top: 0.5em;">Nairobi, Kenya · +254 707 868 194 · Last edited on 10 Occtober 2026, at 13:31 (EAT)</p>
         </div>
     </footer>
 
-    <script>
-        // Hero Section Interactions
-        (function() {
-            const viewBtn = document.getElementById('viewWorkBtn');
-            const contactBtn = document.getElementById('contactBtn');
-            
-            function showElegantMessage(type) {
-                const toast = document.createElement('div');
-                toast.style.position = 'fixed';
-                toast.style.bottom = '30px';
-                toast.style.left = '50%';
-                toast.style.transform = 'translateX(-50%)';
-                toast.style.backgroundColor = '#ffffff';
-                toast.style.color = '#0a2540';
-                toast.style.padding = '14px 28px';
-                toast.style.borderRadius = '60px';
-                toast.style.fontWeight = '500';
-                toast.style.fontSize = '0.9rem';
-                toast.style.boxShadow = '0 20px 35px -10px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,112,243,0.2)';
-                toast.style.zIndex = '1001';
-                toast.style.backdropFilter = 'blur(8px)';
-                toast.style.background = 'rgba(255,255,255,0.98)';
-                toast.style.fontFamily = "'Inter', sans-serif";
-                toast.style.display = 'flex';
-                toast.style.alignItems = 'center';
-                toast.style.gap = '12px';
-                toast.style.letterSpacing = '-0.2px';
-                
-                if(type === 'work') {
-                    toast.innerHTML = '<i class="fas fa-folder-open" style="color:#0070f3; font-size: 1.2rem;"></i> <span>Explore Evans’ portfolio: Django, Flutter, React projects — <strong>coming soon.</strong> 📁</span>';
-                } else {
-                    toast.innerHTML = '<i class="fas fa-envelope" style="color:#0070f3; font-size: 1.2rem;"></i> <span>📧 evans@osumba.dev | Let’s build something great together. ✨</span>';
-                }
-                
-                document.body.appendChild(toast);
-                
-                setTimeout(() => {
-                    toast.style.transition = 'opacity 0.4s ease';
-                    toast.style.opacity = '0';
-                    setTimeout(() => toast.remove(), 500);
-                }, 2800);
-            }
-            
-            if(viewBtn) {
-                viewBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    // Optional: Smooth scroll to projects as fallback
-                    const projectsSection = document.getElementById('projects');
-                    if (projectsSection) {
-                        window.scrollTo({
-                            top: projectsSection.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                    }
-                    showElegantMessage('work');
-                });
-            }
-            
-            if(contactBtn) {
-                contactBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    // Optional: Smooth scroll to contact as fallback
-                    const contactSection = document.getElementById('contact');
-                    if (contactSection) {
-                        window.scrollTo({
-                            top: contactSection.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                    }
-                    showElegantMessage('contact');
-                });
-            }
-            
-            console.log("%c Evans Atula Osumba - Software Engineer | Building Africa’s digital future", "color: #0070f3; font-size: 14px; font-weight: 600;");
-        })();
-
-        // Theme Toggle
-        const themeToggle = document.getElementById('theme-toggle');
-        const themeIcon = themeToggle.querySelector('i');
-        
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('light-theme');
-            
-            if (document.body.classList.contains('light-theme')) {
-                themeIcon.classList.remove('fa-moon');
-                themeIcon.classList.add('fa-sun');
-            } else {
-                themeIcon.classList.remove('fa-sun');
-                themeIcon.classList.add('fa-moon');
-            }
-        });
-
-        // Mobile Menu Toggle
-        const mobileMenu = document.querySelector('.mobile-menu');
-        const navLinks = document.querySelector('.nav-links');
-        
-        mobileMenu.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-
-        // Form Submission
-        const contactForm = document.getElementById('contactForm');
-        
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            const name = document.getElementById('name').value;
-            const contact = document.getElementById('contact').value;
-            const subject = document.getElementById('subject').value;
-            const message = document.getElementById('message').value;
-            
-            const recipients = 'e.osumba@digitalleap.africa,osumbaevans21@gmail.com';
-            const emailSubject = encodeURIComponent(subject);
-            const emailBody = encodeURIComponent(`${message}\n\nRegards,\n${name} | ${contact}`);
-            
-            // Try Gmail web interface first, then fallback to mailto
-            const gmailUrl = `https://mail.google.com/mail/?view=cm&to=${recipients}&su=${emailSubject}&body=${emailBody}`;
-            
-            // Open Gmail in new tab
-            const newWindow = window.open(gmailUrl, '_blank');
-            
-            // Fallback to mailto if popup blocked
-            if (!newWindow) {
-                const mailtoLink = `mailto:${recipients}?subject=${emailSubject}&body=${emailBody}`;
-                window.location.href = mailtoLink;
-            }
-            
-            contactForm.reset();
-        });
-
-        // Smooth Scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                    
-                    // Close mobile menu if open
-                    if (window.innerWidth <= 768) {
-                        navLinks.classList.remove('active');
-                    }
-                }
-            });
-        });
-
-        // Header scroll effect
-        window.addEventListener('scroll', () => {
-            const header = document.querySelector('header');
-            if (window.scrollY > 100) {
-                header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
-            } else {
-                header.style.boxShadow = 'none';
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
